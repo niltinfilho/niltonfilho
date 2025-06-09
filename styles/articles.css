@@ -1,0 +1,88 @@
+main {
+  background-color: var(--white);
+}
+
+#articles-header {
+
+  & section {
+    justify-content: space-between;
+  }
+
+  & a {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bolder;
+    transition: all .2s;
+  }
+
+  & a:hover {
+    color: var(--secondary-color);
+  }
+}
+
+#article-banner {
+  background-image: url('../assets/banner-hero-skills.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 191px 0 96px;
+
+  & h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: var(--secondary-color);
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+#article-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 96px 0;
+
+  & p,
+  abbr {
+    font-family: "Roboto", sans-serif;
+    color: var(--dark-grey);
+    margin: 12px 0;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  & abbr {
+    text-decoration: revert;
+  }
+
+  img {
+    width: 960px;
+    margin-bottom: 24px;
+  }
+
+  & h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 64px 0 40px;
+  }
+
+  & h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bolder;
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin: 40px 0;
+
+  }
+
+  & h4 {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--primary-color);
+    margin: 40px 0;
+  }
+}

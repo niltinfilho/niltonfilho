@@ -22,6 +22,7 @@
 
 html {
   background-color: var(--dark-grey);
+  scroll-behavior: smooth;
 }
 
 /* GLOBAL STYLES */
@@ -53,7 +54,7 @@ html {
   }
 
   & ul {
-    gap: 40px;
+    gap: 32px;
 
     & a {
       font-family: "JetBrains Mono", monospace;
@@ -266,9 +267,9 @@ main {
   }
 }
 
-/* PROJECTS & ABOUT BACKGROUND */
+/* PROJECTS & ARTICLES & ABOUT BACKGROUND */
 
-#projects-about-bg {
+#projects-articles-about-bg {
   background-image: url('../assets/banner-projects-about.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -363,6 +364,50 @@ main {
             color: var(--primary-color);
           }
         }
+      }
+    }
+  }
+}
+
+/* ARTICLES SECTION */
+
+#articles-section {
+  margin-top: 96px;
+
+  & h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 52px;
+  }
+
+  & .articles-items {
+    align-items: stretch;
+    justify-content: center;
+    gap: 24px;
+
+    & .article-card {
+      width: 320px;
+      background-color: var(--dark-grey);
+      border: solid 1px var(--light-grey);
+      border-radius: 13px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      & h3 {
+        font-family: "JetBrains Mono", monospace;
+        font-weight: bolder;
+        font-size: 18px;
+        color: var(--secondary-color);
+      }
+
+      & p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        color: var(--light-grey);
       }
     }
   }
