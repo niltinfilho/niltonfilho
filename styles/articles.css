@@ -38,7 +38,7 @@ main {
 }
 
 #article-content {
-  max-width: 960px;
+  max-width: 730px;
   margin: 0 auto;
   padding: 96px 0;
 
@@ -56,7 +56,7 @@ main {
   }
 
   img {
-    width: 960px;
+    width: 730px;
     margin-bottom: 24px;
   }
 
