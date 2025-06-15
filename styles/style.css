@@ -561,6 +561,10 @@ main {
         align-items: center;
         gap: 16px;
 
+        & img {
+          width: 24px;
+        }
+
         & p:hover {
           color: var(--secondary-color);
         }
@@ -591,7 +595,11 @@ main {
   & .footer-section-content {
     align-items: flex-start;
     justify-content: space-between;
-    margin: 96px 0 40px;
+    margin: 64px 0 64px;
+
+    & .logo-footer {
+      width: 35%;
+    }
 
     & h2 {
       font-family: "JetBrains Mono", monospace;
@@ -623,6 +631,10 @@ main {
 
       & a {
         gap: 16px;
+
+        & img {
+          width: 24px;
+        }
       }
 
       p {
